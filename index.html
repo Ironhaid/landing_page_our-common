@@ -2,7 +2,7 @@
 <html lang="ua">
 
 <head>
-    <title></title>
+    <title>Avocado.Studio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
@@ -11,8 +11,16 @@
 </head>
 
 <body>
+    <div class="arrow-up position-fixed" onClick="scrollToTop()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+            class="bi bi-arrow-up-circle-fill arrow-icon arrow d-flex justify-content-start footer-arrow align-items-start"
+            viewBox="0 0 16 16">
+            <path
+                d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+        </svg>
+    </div>
     <div class="wrapper container-fluid px-5">
-        <nav class="navbar navbar-expand-lg bg-transparent m-3">
+        <nav class="navbar navbar-expand-lg bg-transparent m-3 element-animation">
             <div class="container-fluid">
                 <a class="navbar-brand logo-brand" href="#">Avocado.Studio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,7 +37,7 @@
                 </div>
             </div>
         </nav>
-        <div class="main d-flex bg-light rounded-4 align-items-center">
+        <div class="main d-flex bg-light rounded-4 align-items-center element-animation">
             <div class="main__title d-flex align-items-center w-100 me-5 h-100">
                 <p class="fw-bold lh-1 d-flex">Академия английского языка</p>
             </div>
@@ -42,7 +50,7 @@
                 </div>
             </div>
         </div>
-        <div class="level d-flex bg-light my-5 w-100 rounded-4 p-5 ">
+        <div class="level d-flex bg-light my-5 w-100 rounded-4 p-5 element-animation">
             <div class="level-sub">
                 <div class="level__new p-2 d-flex justify-content-center">
                     new
@@ -52,7 +60,7 @@
                 <p>Определи свой уровень английского - <a href="#">пройди тест</a></p>
             </div>
         </div>
-        <div class="main-focus my-5">
+        <div class="main-focus my-5 element-animation">
             <div class="main-focus__content-1 rounded-4">
                 <h2>Фокус на вашей специализации и потребностях</h2>
                 <h3 class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquam velit
@@ -78,7 +86,7 @@
                 <img class="position-absolute rounded-4" src="/img/main-focus_img.png" alt="main-focus_img.png">
             </div>
         </div>
-        <div class="possibility d-flex rounded-4">
+        <div class="possibility d-flex rounded-4 element-animation">
             <div class="possibility__items d-flex align-items-center">
                 <div class="possibility__items-1 w-100">
                     <div class="possibility__item-1 item bg-light">BEC B1 Preliminary</div>
@@ -101,31 +109,25 @@
                     architecto.</h3>
             </div>
         </div>
-        <div class="who w-100 d-flex justify-content-between align-items-start rounded-4 my-5">
+        <div id="who" class="who w-100 d-flex justify-content-between align-items-start rounded-4 my-5 element-animation">
             <div class="who__person-list d-flex flex-column">
-                <div class="who__person d-flex flex-column align-items-center">
+                <div id="who__person-11" class="who__person d-flex flex-column align-items-center person-border">
                     <div class="who__img mb-3 d-flex justify-content-center align-items-center">
-                        <a href="#">
-                            <img src="/img/who__img-1.png" alt="who__img-1.jpg">
-                        </a>
+                        <img src="/img/who__img-1.png" alt="who__img-1.jpg">
                     </div>
-                    <h3 class="d-flex justify-content-center flex-wrap">Гумен <br> Владислав</h3>
+                    <h3 class="d-flex justify-content-center flex-wrap">Екатерина <br> Анатольева</h3>
                 </div>
-                <div class="who__person my-3 d-flex flex-column align-items-center">
+                <div id="who__person-21" class="who__person my-3 d-flex flex-column align-items-center">
                     <div class="who__img mb-3 d-flex justify-content-center align-items-center">
-                        <a href="#">
-                            <img src="/img/who__img-1.png" alt="who__img-1.jpg">
-                        </a>
+                        <img src="/img/who__img-1.png" alt="who__img-1.jpg">
                     </div>
-                    <h3 class="d-flex justify-content-center flex-wrap">Гумен <br> Владислав</h3>
+                    <h3 class="d-flex justify-content-center flex-wrap">Мария<br> Дроздова</h3>
                 </div>
-                <div class="who__person d-flex flex-column align-items-center">
+                <div id="who__person-31" class="who__person d-flex flex-column align-items-center">
                     <div class="who__img mb-3 d-flex justify-content-center align-items-center">
-                        <a href="#">
-                            <img src="/img/who__img-1.png" alt="who__img-1.jpg">
-                        </a>
+                        <img src="/img/who__img-1.png" alt="who__img-1.jpg">
                     </div>
-                    <h3 class="d-flex justify-content-center flex-wrap">Гумен <br> Владислав</h3>
+                    <h3 class="d-flex justify-content-center flex-wrap">Михаил<br> Панкратьев</h3>
                 </div>
             </div>
             <div id="who__person-1" class="d-flex rounded-4 bg-light flex-column">
@@ -135,7 +137,75 @@
                     </div>
                     <div class="who__title">
                         <h3>Кто преподает?</h3>
-                        <h2>Гумен <br> Владислав</h2>
+                        <h2>Екатерина <br> Анатольева</h2>
+                    </div>
+                </div>
+                <div class="who__achievements d-flex flex-column mb-3">
+                    <h3 class="who__subtitle text-center mx-3">Достижения:</h3>
+                    <div class="who__items mt-4 d-flex flex-wrap">
+                        <div class="who__item">
+                            <h3>27+ корпоративных клиентов</h3>
+                        </div>
+                        <div class="who__item">
+                            <h3>11 лет работы в бизнесе</h3>
+                        </div>
+                        <div class="who__item">
+                            <h3>Преподаватель крупных языковых школ</h3>
+                        </div>
+                        <div class="who__item">
+                            <h3>Лингвист</h3>
+                        </div>
+                        <div class="who__item">
+                            <h3>Тренер международного института</h3>
+                        </div>
+                        <div class="who__item">
+                            <h3>Знание трех языков</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="who__person-2" class="d-flex rounded-4 bg-light flex-column d-none">
+                <div class="who__person-name d-flex">
+                    <div class="who__img mb-4 d-flex justify-content-center align-items-center who__person-img">
+                        <img src="/img/who__img-1.png" alt="who__img-1.jpg">
+                    </div>
+                    <div class="who__title">
+                        <h3>Кто преподает?</h3>
+                        <h2>Мария<br> Дроздова</h2>
+                    </div>
+                </div>
+                <div class="who__achievements d-flex flex-column mb-3">
+                    <h3 class="who__subtitle text-center mx-3">Достижения:</h3>
+                    <div class="who__items mt-4 d-flex flex-wrap">
+                        <div class="who__item">
+                            <h3>27+ корпоративных клиентов</h3>
+                        </div>
+                        <div class="who__item">
+                            <h3>11 лет работы в бизнесе</h3>
+                        </div>
+                        <div class="who__item">
+                            <h3>Преподаватель крупных языковых школ</h3>
+                        </div>
+                        <div class="who__item">
+                            <h3>Лингвист</h3>
+                        </div>
+                        <div class="who__item">
+                            <h3>Тренер международного института</h3>
+                        </div>
+                        <div class="who__item">
+                            <h3>Знание трех языков</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="who__person-3" class="d-flex rounded-4 bg-light flex-column d-none">
+                <div class="who__person-name d-flex">
+                    <div class="who__img mb-4 d-flex justify-content-center align-items-center who__person-img">
+                        <img src="/img/who__img-1.png" alt="who__img-1.jpg">
+                    </div>
+                    <div class="who__title">
+                        <h3>Кто преподает?</h3>
+                        <h2>Михаил<br> Панкратьев</h2>
                     </div>
                 </div>
                 <div class="who__achievements d-flex flex-column mb-3">
@@ -163,32 +233,7 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="work rounded-4 p-5 bg-light my-5">
+        <div class="work rounded-4 p-5 bg-light my-5 element-animation">
             <h2 class="work__title-main">Формат и стоимость занятий</h2>
             <div class="work__main-content d-flex">
                 <div class="d-flex flex-column w-100 justify-content-center align-items-center mx-3">
@@ -277,7 +322,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-start my-5">
+        <div class="main-start my-5 element-animation element-animation">
             <div class="main-start__content-1 rounded-4 position-relative">
                 <h2>Как начать</h2>
             </div>
@@ -298,7 +343,7 @@
                 <h3 class="my-4">Начать заниматься регулярно</h3>
             </div>
         </div>
-        <div class="level d-flex bg-light my-5 px-5 w-100 rounded-4 p-5 ">
+        <div class="level d-flex bg-light my-5 px-5 w-100 rounded-4 p-5 element-animation">
             <div class="level__content d-flex align-items-center w-100 level__content-2 flex-column">
                 <h2 class="mb-3 fs-2 text-start w-100">Пора выйти на новый уровень!</h2>
                 <p class="fs-5 text-start w-100">Запишитесь на бесплатный урок и <a href="#">получите скидку 20%</a> на
@@ -309,7 +354,7 @@
             </div>
         </div>
     </div>
-    <footer class="container-fluid d-flex justify-content-between p-5">
+    <footer class="container-fluid d-flex justify-content-between p-5 element-animation">
         <div class="social w-100">
             <a class="navbar-brand logo-brand mb-3" href="#">Avocado.Studio</a>
             <div class="social-icons mb-3"></div>
@@ -321,19 +366,63 @@
                 <button type="button" class="button-custom_main btn btn-dark">стоимость</button>
             </div>
         </div>
-        <a class="arrow-up" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                class="bi bi-arrow-up-circle-fill arrow-icon arrow d-flex justify-content-start footer-arrow align-items-start"
-                viewBox="0 0 16 16">
-                <path
-                    d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-            </svg>
-        </a>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+    <script>
+
+        window.addEventListener('scroll', () => {
+            let scroll = document.querySelector('.arrow-up');
+            scroll.classList.toggle('active', window.scrollY > 500);
+        })
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        function onEntry(entry) {
+            entry.forEach(change => {
+                if (change.isIntersecting) {
+                    change.target.classList.add('element-show');
+                }
+            });
+        }
+        let options = { threshold: [0.5] };
+        let observer = new IntersectionObserver(onEntry, options);
+        let elements = document.querySelectorAll('.element-animation');
+        for (let elm of elements) {
+            observer.observe(elm);
+        }
+
+        document.querySelector("#who__person-11").onclick = () => {
+            document.querySelector("#who__person-1").classList.remove('d-none');
+            document.querySelector("#who__person-11").classList.add('person-border');
+            document.querySelector("#who__person-2").classList.add('d-none');
+            document.querySelector("#who__person-21").classList.remove('person-border');
+            document.querySelector("#who__person-3").classList.add('d-none');
+            document.querySelector("#who__person-31").classList.remove('person-border');
+        };
+        document.querySelector("#who__person-21").onclick = () => {
+            document.querySelector("#who__person-1").classList.add('d-none');
+            document.querySelector("#who__person-11").classList.remove('person-border');
+            document.querySelector("#who__person-2").classList.remove('d-none');
+            document.querySelector("#who__person-21").classList.add('person-border');
+            document.querySelector("#who__person-3").classList.add('d-none');
+            document.querySelector("#who__person-31").classList.remove('person-border');
+        };
+        document.querySelector("#who__person-31").onclick = () => {
+            document.querySelector("#who__person-1").classList.add('d-none');
+            document.querySelector("#who__person-11").classList.remove('person-border');
+            document.querySelector("#who__person-2").classList.add('d-none');
+            document.querySelector("#who__person-21").classList.remove('person-border');
+            document.querySelector("#who__person-3").classList.remove('d-none');
+            document.querySelector("#who__person-31").classList.add('person-border');
+        };
+    </script>
 
 </body>
 
