@@ -22,32 +22,141 @@
     <div class="wrapper container-fluid px-5">
         <nav class="navbar navbar-expand-lg bg-transparent m-3 element-animation">
             <div class="container-fluid">
-                <a class="navbar-brand logo-brand" href="#">Avocado.Studio</a>
+                <a class="navbar-brand logo-brand pt-5" href="#">Avocado.Studio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span id="navbar-button-span" class="navbar-button-span">
+                        <span></span>
+                    </span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-end pt-5" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <button type="button" class="button-custom_main btn btn-dark">о занятиях</button>
-                        <button type="button" class="button-custom_main btn btn-dark">о преподавателях</button>
-                        <button type="button" class="button-custom_main btn btn-dark">стоимость</button>
+                        <button type="button" class="button-custom_main btn">Залишити заявку</button>
+                        <button type="button" class="button-custom_main btn btn-dark">Послуги</button>
+                        <button type="button" class="button-custom_main btn btn-dark">Про нас</button>
                     </div>
                 </div>
             </div>
         </nav>
         <div class="main d-flex bg-light rounded-4 align-items-center element-animation">
             <div class="main__title d-flex align-items-center w-100 me-5 h-100">
-                <p class="fw-bold lh-1 d-flex">Академия английского языка</p>
+                <p class="fw-bold lh-1 d-flex">Avocado Studio - Web-рішення для Вас.</p>
             </div>
             <div
                 class="main__subtitle d-flex align-items-center justify-content-start flex-column pt-3 w-100 ms-5 me-2 h-100">
-                <p class="lh-1 main__p1">Новый уровень английского языка для работы и учебы</p>
-                <p class="main__p2">Индивидуальные и групповые онлайн занятия для взрослых и студентов</p>
+                <p class="lh-1 main__p1">Розробка веб-сайтів, інтернет-магазинів та landing page</p>
+                <p class="main__p2">Наша студія пропонує індивідуальні та шаблонні рішення завдань, пов'язаних із Вашою
+                    діяльністю</p>
                 <div class="main__button justify-content-start w-100 mt-3">
-                    <button type="button" class="button-custom_sub btn">Записаться</button>
+                    <button type="button" class="button-custom_sub btn">Дізнатися більше</button>
                 </div>
+            </div>
+        </div>
+        <div class="achievements d-flex align-items-stretch flex-row justify-content-center flex-row my-5 h-100 w-100">
+            <div class="achievements__item d-flex flex-column m-2 rounded-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cast"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="m7.646 9.354-3.792 3.792a.5.5 0 0 0 .353.854h7.586a.5.5 0 0 0 .354-.854L8.354 9.354a.5.5 0 0 0-.708 0z" />
+                    <path
+                        d="M11.414 11H14.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h3.086l-1 1H1.5A1.5 1.5 0 0 1 0 10.5v-7A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v7a1.5 1.5 0 0 1-1.5 1.5h-2.086l-1-1z" />
+                </svg>
+                <h2>100+</h2>
+                <h3>виконаних проектів</h3>
+            </div>
+            <div class="achievements__item d-flex flex-column m-2 rounded-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z" />
+                </svg>
+                <h2>+40%</h2>
+                <h3>річного приросту</h3>
+            </div>
+            <div class="achievements__item d-flex flex-column m-2 rounded-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                    <path
+                        d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z" />
+                </svg>
+                <h2>100%</h2>
+                <h3>задоволених клієнтів</h3>
+            </div>
+            <div class="achievements__item d-flex flex-column m-2 rounded-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-clock-history" viewBox="0 0 16 16">
+                    <path
+                        d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z" />
+                    <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
+                    <path
+                        d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                </svg>
+                <h2>3+</h2>
+                <h3>роки роботи на ринку</h3>
+            </div>
+        </div>
+        <!-- <div class="main-focus my-5">
+            <div class="main-focus__content-1 rounded-4 element-animation">
+                <h2>Фокус на вашей специализации и потребностях</h2>
+                <h3 class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquam velit
+                    consequatur labore,
+                    alias dolorum porro aspernatur perferendis aperiam a expedita dolor voluptatum eveniet. A commodi
+                    officiis atque molestiae nobis.</h3>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dignissimos atque quia quis
+                    assumenda obcaecati reprehenderit cupiditate ab, nobis laudantium deleniti. Facere nesciunt, totam
+                    quasi iste labore cupiditate quas dolorum!</h3>
+            </div>
+            <div class="main-focus__content-2 bg-light rounded-4 element-animation">
+                <h2>Фокус на вашей специализации и потребностях</h2>
+                <h3 class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquam velit
+                    consequatur labore,
+                    alias dolorum porro aspernatur perferendis aperiam a expedita dolor voluptatum eveniet. A commodi
+                    officiis atque molestiae nobis.</h3>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dignissimos atque quia quis
+                    assumenda obcaecati reprehenderit cupiditate ab, nobis laudantium deleniti. Facere nesciunt, totam
+                    quasi iste labore cupiditate quas dolorum!</h3>
+            </div>
+            <div class="main-focus__content-3 rounded-4 position-relative element-animation">
+                <h2>Интенсивная и разнообразная разговорная практика</h2>
+                <img class="position-absolute rounded-4" src="/img/main-focus_img.png" alt="main-focus_img.png">
+            </div>
+        </div> -->
+        <div class="possibility d-flex rounded-4 element-animation">
+            <div class="possibility__items d-flex align-items-center w-50 mx-4">
+                <div class="possibility__items-1 w-100">
+                    <div class="possibility__item-1 item bg-light">Node.js</div>
+                    <div class="possibility__item-2 item bg-light">Laravel</div>
+                    <div class="possibility__item-3 item bg-light">Wordpress</div>
+                    <div class="possibility__item-1 item bg-light">TypeScript</div>
+                    <div class="possibility__item-2 item bg-light">MySQL</div>
+                    <div class="possibility__item-3 item bg-light">Ajax</div>
+                </div>
+                <div class="possibility__items-2 w-100">
+                    <div class="possibility__item-4 item bg-light">PHP</div>
+                    <div class="possibility__item-5 item bg-light">Bootstrap</div>
+                    <div class="possibility__item-6 item bg-light">HTML/CSS</div>
+                    <div class="possibility__item-4 item bg-light">React</div>
+                    <div class="possibility__item-5 item bg-light">JavaScript</div>
+                    <div class="possibility__item-6 item bg-light">Rest API</div>
+                </div>
+            </div>
+            <div class="possibility__content w-50 mx-4">
+                <h2>Чому ми?</h2>
+                <h3>1. Професіоналізм. Ми успішно реалізували багато проектів різноманітної складності. Найкраща
+                    гарантія професіоналізму – велика кількість задоволених клієнтів, які продовжують замовляти
+                    виробництво сайту та унікальних веб-майданчиків.</h3>
+                <h3>2. Налагоджена система роботи створення сайтів. Наш менеджер зв'яжеться з Вами, уточнить усі
+                    питання, складе бриф, на основі якого буде створено докладне технічне завдання відповідно до всіх
+                    побажань та вимог як розробити сайт. Наша команда створить гарний дизайн сайту, привабливий для
+                    цільової аудиторії, врахує всі особливості корпоративного стилю, розробить просту та зручну для
+                    відвідувачів навігацію, напише програмний код, протестує створений ресурс та усуне помилки. Ми
+                    оптимізуємо його під різноманітні варіанти браузерів, зробимо версію для мобільних гаджетів.</h3>
+                <h3>3. Гарантований результат виробництва сайтів. Виготовлення сайтів – це наша робота. Ми враховуємо
+                    всі прохання та побажання клієнтів та вносимо корективи у процесі створення сайту. Наше агентство
+                    завжди націлене на досягнення кращого результату, що повністю задовольняє замовника.</h3>
+                <h3>4. Прийнятна вартість. Ми не прагнемо «роздмухувати» ціни. Вони повністю обґрунтовані та залежать
+                    від складності та особливостей проекту.</h3>
             </div>
         </div>
         <div class="level d-flex bg-light my-5 w-100 rounded-4 p-5 element-animation">
@@ -57,59 +166,11 @@
                 </div>
             </div>
             <div class="level__content ms-5 d-flex align-items-center w-100 justify-content-center">
-                <p>Определи свой уровень английского - <a href="#">пройди тест</a></p>
+                <p>Отримайте безкоштовний аудит Вашого сайту - <a href="#">залиште заявку</a></p>
             </div>
         </div>
-        <div class="main-focus my-5 element-animation">
-            <div class="main-focus__content-1 rounded-4">
-                <h2>Фокус на вашей специализации и потребностях</h2>
-                <h3 class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquam velit
-                    consequatur labore,
-                    alias dolorum porro aspernatur perferendis aperiam a expedita dolor voluptatum eveniet. A commodi
-                    officiis atque molestiae nobis.</h3>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dignissimos atque quia quis
-                    assumenda obcaecati reprehenderit cupiditate ab, nobis laudantium deleniti. Facere nesciunt, totam
-                    quasi iste labore cupiditate quas dolorum!</h3>
-            </div>
-            <div class="main-focus__content-2 bg-light rounded-4">
-                <h2>Фокус на вашей специализации и потребностях</h2>
-                <h3 class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquam velit
-                    consequatur labore,
-                    alias dolorum porro aspernatur perferendis aperiam a expedita dolor voluptatum eveniet. A commodi
-                    officiis atque molestiae nobis.</h3>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dignissimos atque quia quis
-                    assumenda obcaecati reprehenderit cupiditate ab, nobis laudantium deleniti. Facere nesciunt, totam
-                    quasi iste labore cupiditate quas dolorum!</h3>
-            </div>
-            <div class="main-focus__content-3 rounded-4 position-relative">
-                <h2>Интенсивная и разнообразная разговорная практика</h2>
-                <img class="position-absolute rounded-4" src="/img/main-focus_img.png" alt="main-focus_img.png">
-            </div>
-        </div>
-        <div class="possibility d-flex rounded-4 element-animation">
-            <div class="possibility__items d-flex align-items-center">
-                <div class="possibility__items-1 w-100">
-                    <div class="possibility__item-1 item bg-light">BEC B1 Preliminary</div>
-                    <div class="possibility__item-2 item bg-light">BEC B1 Vantage</div>
-                    <div class="possibility__item-3 item bg-light">BEC C1 Higher</div>
-                </div>
-                <div class="possibility__items-2 w-100">
-                    <div class="possibility__item-4 item bg-light">IELTS</div>
-                    <div class="possibility__item-5 item bg-light">TOEFL</div>
-                    <div class="possibility__item-6 item bg-light">PTE</div>
-                </div>
-            </div>
-            <div class="possibility__content w-100">
-                <h2>Возможность подготовиться к международному экзамену</h2>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti cum, sapiente assumenda autem
-                    voluptatibus possimus animi beatae ex modi labore. Eligendi voluptas at vero repudiandae non dolorum
-                    culpa. Asperiores, in?</h3>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam officia in velit. Quis facere
-                    impedit, dolorum magnam libero vero eum a sed fugit incidunt qui debitis earum quia facilis
-                    architecto.</h3>
-            </div>
-        </div>
-        <div id="who" class="who w-100 d-flex justify-content-between align-items-start rounded-4 my-5 element-animation">
+        <div id="who"
+            class="who w-100 d-flex justify-content-between align-items-start rounded-4 my-5 element-animation">
             <div class="who__person-list d-flex flex-column">
                 <div id="who__person-11" class="who__person d-flex flex-column align-items-center person-border">
                     <div class="who__img mb-3 d-flex justify-content-center align-items-center">
@@ -233,124 +294,320 @@
                 </div>
             </div>
         </div>
-        <div class="work rounded-4 p-5 bg-light my-5 element-animation">
-            <h2 class="work__title-main">Формат и стоимость занятий</h2>
-            <div class="work__main-content d-flex">
-                <div class="d-flex flex-column w-100 justify-content-center align-items-center mx-3">
-                    <div class="work-1 p-5 rounded-4 my-5 w-100 h-100">
+        <div class="work rounded-4 p-5 bg-light my-5">
+            <h2 class="work__title-main">Послуги</h2>
+            <div class="work__main-content d-grid">
+                <div class="d-flex flex-column w-100 justify-content-center align-items-center">
+                    <div class="work-1 p-5 rounded-4 my-3 w-100 h-100 element-animation">
                         <div class="work__item-1">
                             <div class="work__title">
-                                <h2>Занятия в группах</h2>
-                                <h3>общий курс</h3>
+                                <h2>Корпоративный сайт</h2>
+                                <h3>Корпоративний сайт – це інтернет-ресурс організації, який використовується в
+                                    комерційних та інформаційних цілях для підтримки та розвитку вже наявного off-line
+                                    бізнесу.</h3>
                             </div>
                             <div class="work__content d-flex align-items-start flex-column">
                                 <div class="work__line w-100 my-3"></div>
                                 <div class="d-flex justify-content-between w-100 align-items-start">
-                                    <h3 class="w-100">Пробное занятие</h3>
-                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Бесплатно</h3>
+                                    <h3 class="w-100">Аудит</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Безкоштовно</h3>
                                 </div>
                                 <div class="work__line w-100 my-3"></div>
                                 <div class="d-flex justify-content-between w-100 align-items-start">
-                                    <h3 class="w-100">Продолжительность курса</h3>
-                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">84 ак. часа</h3>
+                                    <h3 class="w-100">Тривалість робіт</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 5-ти днів</h3>
                                 </div>
                                 <div class="work__line w-100 my-3"></div>
                                 <div class="d-flex justify-content-between w-100 align-items-start">
-                                    <h3 class="w-100">Длительность занятия</h3>
-                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">90 мин.</h3>
-                                </div>
-                                <div class="work__line w-100 my-3"></div>
-                                <div class="d-flex justify-content-between w-100 align-items-start">
-                                    <h3 class="w-100">Стоимость</h3>
-                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">1 месяц - 16000
-                                        грн
+                                    <h3 class="w-100">Вартість</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 200$
                                     </h3>
                                 </div>
                                 <div class="work__line w-100 my-3"></div>
-                                <div class="d-flex justify-content-between w-100 align-items-start">
-                                    <h3 class="w-100">Рассписание</h3>
-                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">ПН/СР - 7:30/9:00<br>ВТ/ПТ
-                                        -
-                                        19:00/20:30 </h3>
-                                </div>
                             </div>
                             <div class="main__button justify-content-end w-100 mt-3 d-flex">
-                                <button type="button" class="button-custom_sub btn work__button">Записаться</button>
+                                <button type="button" class="button-custom_sub btn work__button">Залишити
+                                    заявку</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-column w-100 justify-content-center align-items-center mx-3">
-                    <div class="work-2 p-5 rounded-4 my-5 w-100 h-100">
+                <div class="d-flex flex-column w-100 justify-content-center align-items-center">
+                    <div class="work-2 p-5 rounded-4 my-3 w-100 h-100 element-animation">
                         <div class="work__item-2">
                             <div class="work__title">
-                                <h2>Занятия соло</h2>
-                                <h3>интенсивный курс</h3>
+                                <h2>Landing Page</h2>
+                                <h3>Лендінг - це односторінок, що продає, мета якого конвертувати відвідувачів сайту в
+                                    покупців. Перехід на лендинг виконується за допомогою рекламних джерел Google,
+                                    соціальних мереж, розсилок тощо.</h3>
                             </div>
                             <div class="work__content d-flex align-items-start flex-column">
                                 <div class="work__line w-100 my-3"></div>
                                 <div class="d-flex justify-content-between w-100 align-items-start">
-                                    <h3>Пробное занятие</h3>
-                                    <h3 class="fw-semibold">Бесплатно</h3>
+                                    <h3 class="w-100">Аудит</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Безкоштовно</h3>
                                 </div>
                                 <div class="work__line w-100 my-3"></div>
                                 <div class="d-flex justify-content-between w-100 align-items-start">
-                                    <h3>Продолжительность курса</h3>
-                                    <h3 class="fw-semibold">Договорная</h3>
+                                    <h3 class="w-100">Тривалість робіт</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 3-х днів</h3>
                                 </div>
                                 <div class="work__line w-100 my-3"></div>
                                 <div class="d-flex justify-content-between w-100 align-items-start">
-                                    <h3>Длительность занятия</h3>
-                                    <h3 class="fw-semibold">60/90 мин.</h3>
+                                    <h3 class="w-100">Вартість</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 100$
+                                    </h3>
                                 </div>
                                 <div class="work__line w-100 my-3"></div>
-                                <div class="d-flex justify-content-between w-100 align-items-start">
-                                    <h3>Стоимость</h3>
-                                    <h3 class="fw-semibold">1 урок 3600 грн/<br>4800 грн</h3>
-                                </div>
-                                <div class="work__line w-100 my-3"></div>
-                                <div class="d-flex justify-content-between w-100 align-items-start">
-                                    <h3>Рассписание</h3>
-                                    <h3 class="fw-semibold">Договорное </h3>
-                                </div>
                             </div>
                             <div class="main__button justify-content-end w-100 mt-3 d-flex">
-                                <button type="button" class="button-custom_sub btn">Записаться</button>
+                                <button type="button" class="button-custom_sub btn">Залишити заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column w-100 justify-content-center align-items-center">
+                    <div class="work-2 work-3 p-5 rounded-4 my-3 w-100 h-100 element-animation">
+                        <div class="work__item-1">
+                            <div class="work__title">
+                                <h2>Сайт-візитка</h2>
+                                <h3>Розробляємо сайти різного рівня складності – від економного сайту-візитки до
+                                    класного сайту з унікальним, сучасним, зручним та легким дизайном.</h3>
+                            </div>
+                            <div class="work__content d-flex align-items-start flex-column">
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Аудит</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Безкоштовно</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Тривалість робіт</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 3-х днів</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Вартість</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 100$
+                                    </h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                            </div>
+                            <div class="main__button justify-content-end w-100 mt-3 d-flex">
+                                <button type="button" class="button-custom_sub btn">Залишити заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column w-100 justify-content-center align-items-center">
+                    <div class="work-1 work-4 p-5 rounded-4 my-3 w-100 h-100 element-animation">
+                        <div class="work__item-1">
+                            <div class="work__title">
+                                <h2>Інтернет-магазин</h2>
+                                <h3>Магазин включає всі необхідні модулі для ведення електронної торгівлі (каталог
+                                    товарів, імпорт та експорт товарів, оплата і доставка товарів, пошук і фільтр за
+                                    параметрами, гнучкий механізм знижок, реєстрація користувачів)</h3>
+                            </div>
+                            <div class="work__content d-flex align-items-start flex-column">
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Аудит</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Безкоштовно</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Тривалість робіт</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 10-ти днів</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Вартість</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 500$
+                                    </h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                            </div>
+                            <div class="main__button justify-content-end w-100 mt-3 d-flex">
+                                <button type="button" class="button-custom_sub btn work__button">Залишити
+                                    заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column w-100 justify-content-center align-items-center">
+                    <div class="work-1 work-4 p-5 rounded-4 my-3 w-100 h-100 element-animation">
+                        <div class="work__item-1">
+                            <div class="work__title">
+                                <h2>Індивідуальний проект</h2>
+                                <h3>Хочете щось особливе? Тоді ви за адресою. Ми з радістю розробимо для Вас
+                                    нестандартне рішення для ваших унікальних завдань.</h3>
+                            </div>
+                            <div class="work__content d-flex align-items-start flex-column">
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Аудит</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Безкоштовно</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Тривалість робіт</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Обумовлюється</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Вартість</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Обумовлюється
+                                    </h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                            </div>
+                            <div class="main__button justify-content-end w-100 mt-3 d-flex">
+                                <button type="button" class="button-custom_sub btn work__button">Залишити
+                                    заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column w-100 justify-content-center align-items-center">
+                    <div class="work-2 work-3 p-5 rounded-4 my-3 w-100 h-100 element-animation">
+                        <div class="work__item-1">
+                            <div class="work__title">
+                                <h2>Сайт-каталог</h2>
+                                <h3>Сайт-каталог – це багатосторінковий мультифункціональний ресурс, який надає детальну
+                                    інформацію про товари та послуги, що їх реалізує компанія.</h3>
+                            </div>
+                            <div class="work__content d-flex align-items-start flex-column">
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Аудит</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Безкоштовно</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Тривалість робіт</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 10-ти днів</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Вартість</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 400$
+                                    </h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                            </div>
+                            <div class="main__button justify-content-end w-100 mt-3 d-flex">
+                                <button type="button" class="button-custom_sub btn">Залишити заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column w-100 justify-content-center align-items-center">
+                    <div class="work-2 work-6 p-5 rounded-4 my-3 w-100 h-100 element-animation">
+                        <div class="work__item-1">
+                            <div class="work__title">
+                                <h2>Доробка сайту</h2>
+                                <h3>Ми можемо взяти на себе доопрацювання вашого сайту. Полагодити, виправити помилки,
+                                    допомогти з технічними складнощами та з питаннями дизайну</h3>
+                            </div>
+                            <div class="work__content d-flex align-items-start flex-column">
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Аудит</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Безкоштовно</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Тривалість робіт</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 1-го дня</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Вартість</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 50$
+                                    </h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                            </div>
+                            <div class="main__button justify-content-end w-100 mt-3 d-flex">
+                                <button type="button" class="button-custom_sub btn">Залишити заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column w-100 justify-content-center align-items-center">
+                    <div class="work-1 work-5 p-5 rounded-4 my-3 w-100 h-100 element-animation">
+                        <div class="work__item-1">
+                            <div class="work__title">
+                                <h2>Технічна оптимізація</h2>
+                                <h3>Використовуючи сучасні засоби тестування, ми можемо привести сайт до ідеального
+                                    стану. Він правильно працюватиме на всіляких дозволах і пристроях, швидко
+                                    завантажуватися і приємно дивувати пошукові системи.</h3>
+                            </div>
+                            <div class="work__content d-flex align-items-start flex-column">
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Аудит</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Безкоштовно</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Тривалість робіт</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 1-го дня</h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                                <div class="d-flex justify-content-between w-100 align-items-start">
+                                    <h3 class="w-100">Вартість</h3>
+                                    <h3 class="fw-semibold w-100 d-flex justify-content-end">Від 50$
+                                    </h3>
+                                </div>
+                                <div class="work__line w-100 my-3"></div>
+                            </div>
+                            <div class="main__button justify-content-end w-100 mt-3 d-flex">
+                                <button type="button" class="button-custom_sub btn work__button">Залишити
+                                    заявку</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main-start my-5 element-animation element-animation">
-            <div class="main-start__content-1 rounded-4 position-relative">
-                <h2>Как начать</h2>
+        <div class="main-start my-5 element-animation">
+            <div class="main-start__content-1 rounded-4 position-relative element-animation">
+                <h2>Як почати?</h2>
             </div>
-            <div class="main-start__content-2 bg-light rounded-4 d-flex">
+            <div class="main-start__content-2 bg-light rounded-4 d-flex element-animation">
                 <h2 class="me-4">1</h2>
-                <h3 class="my-4">Оставить заявку на сайте</h3>
+                <h3 class="my-4">Залишити заявку на сайті</h3>
             </div>
-            <div class="rounded-4 main-start__content-3 d-flex">
+            <div class="rounded-4 main-start__content-3 d-flex element-animation">
                 <h2 class="me-4">2</h2>
-                <h3 class="my-4">Пройти тестирование</h3>
+                <h3 class="my-4">Наш менеджер обговорює з Вами всі питання</h3>
             </div>
-            <div class="rounded-4 main-start__content-4 d-flex">
+            <div class="rounded-4 main-start__content-4 d-flex element-animation">
                 <h2 class="me-4">3</h2>
-                <h3 class="my-4">Посетить пробное занятие бесплатно</h3>
+                <h3 class="my-4">Розробка проекту згідно з вимогами Клієнта</h3>
             </div>
-            <div class="bg-light rounded-4 main-start__content-5 d-flex">
+            <div class="bg-light rounded-4 main-start__content-5 d-flex element-animation">
                 <h2 class="me-4">4</h2>
-                <h3 class="my-4">Начать заниматься регулярно</h3>
+                <h3 class="my-4">Тестування</h3>
+            </div>
+            <div class="bg-light rounded-4 main-start__content-6 d-flex element-animation">
+                <h2 class="me-4">5</h2>
+                <h3 class="my-4">Впровадження змін та побажань від Клієнта</h3>
+            </div>
+            <div class="rounded-4 main-start__content-7 d-flex element-animation">
+                <h2 class="me-4">6</h2>
+                <h3 class="my-4">Happy End!</h3>
             </div>
         </div>
         <div class="level d-flex bg-light my-5 px-5 w-100 rounded-4 p-5 element-animation">
             <div class="level__content d-flex align-items-center w-100 level__content-2 flex-column">
-                <h2 class="mb-3 fs-2 text-start w-100">Пора выйти на новый уровень!</h2>
-                <p class="fs-5 text-start w-100">Запишитесь на бесплатный урок и <a href="#">получите скидку 20%</a> на
-                    весь период обучения</p>
+                <h2 class="mb-3 fs-2 text-start w-100">Пора вийти на новий рівень!</h2>
+                <p class="fs-5 text-start w-100">Залиште заявку та <a href="#">отримайте знижку 20%</a> на
+                    розробку сайту</p>
             </div>
             <div>
-                <button type="button" class="button-custom_sub button-custom_sub-2 btn">Записаться</button>
+                <button type="button" class="button-custom_sub button-custom_sub-2 btn">Залишити заявку</button>
             </div>
         </div>
     </div>
@@ -361,9 +618,10 @@
         </div>
         <div class="navbar-nav w-100 d-flex justify-content-start align-items-start">
             <div class="w-50 nav-footer d-block">
-                <button type="button" class="button-custom_main btn btn-dark">о занятиях</button>
-                <button type="button" class="button-custom_main btn btn-dark">о преподавателях</button>
-                <button type="button" class="button-custom_main btn btn-dark">стоимость</button>
+                <button type="button" class="button-custom_main btn btn-dark button-text-footer">Залишити
+                    заявку</button>
+                <button type="button" class="button-custom_main btn btn-dark">Послуги</button>
+                <button type="button" class="button-custom_main btn btn-dark">Про нас</button>
             </div>
         </div>
     </footer>
@@ -391,11 +649,16 @@
                 }
             });
         }
-        let options = { threshold: [0.5] };
+        let options = { threshold: [0.25] };
         let observer = new IntersectionObserver(onEntry, options);
         let elements = document.querySelectorAll('.element-animation');
         for (let elm of elements) {
             observer.observe(elm);
+        }
+
+
+        document.querySelector("#navbar-button-span").onclick = () => {
+            document.querySelector("#navbar-button-span").classList.toggle('active');
         }
 
         document.querySelector("#who__person-11").onclick = () => {
